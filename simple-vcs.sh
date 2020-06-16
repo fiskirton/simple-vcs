@@ -18,7 +18,7 @@ then
             $program_path/funcs/checkout.sh "${@:2:$#}"
             ;;
         push)
-            $program_path/funcs/push.sh
+            $program_path/funcs/push.sh "${@:2:$#}"
             ;;
         status)
 		    $program_path/funcs/status.sh
